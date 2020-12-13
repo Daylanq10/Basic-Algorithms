@@ -11,7 +11,7 @@ import { QuickSortComponent} from './quick-sort/quick-sort.component';
 import { InsertionSortComponent} from './insertion-sort/insertion-sort.component';
 
 const routes: Routes = [
-  {path: 'home-info', component: HomeInfoComponent},
+  {path: '/app/home-info', component: HomeInfoComponent},
   {path: 'linear-search', component: LinearSearchComponent},
   {path: 'binary-search', component: BinarySearchComponent},
   {path: 'selection-sort', component: SelectionSortComponent},
