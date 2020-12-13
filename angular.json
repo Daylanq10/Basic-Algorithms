@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "CS308-Final"
+  "defaultProject": "CS308-Final",
+  "cli": {
+    "analytics": "dcf43037-312f-4625-8fea-48eab2bfa2d4"
+  }
 }
