@@ -116,6 +116,10 @@
               "devServerTarget": "CS308-Final:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
