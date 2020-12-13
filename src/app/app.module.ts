@@ -10,6 +10,7 @@ import { SelectionSortComponent } from './selection-sort/selection-sort.componen
 import { BubbleSortComponent } from './bubble-sort/bubble-sort.component';
 import { MergeSortComponent } from './merge-sort/merge-sort.component';
 import { QuickSortComponent } from './quick-sort/quick-sort.component';
+import { InsertionSortComponent } from './insertion-sort/insertion-sort.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { QuickSortComponent } from './quick-sort/quick-sort.component';
     BubbleSortComponent,
     MergeSortComponent,
     QuickSortComponent,
+    InsertionSortComponent,
   ],
     imports: [
         BrowserModule,

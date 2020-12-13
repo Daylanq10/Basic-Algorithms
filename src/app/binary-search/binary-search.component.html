@@ -3,17 +3,14 @@
   <img src="assets/images/coding.jpg" alt="code_photo" width="100%">
   <hr>
   <h1>Binary Search</h1>
-  <h4>This search algorithm is a more efficient search that begins in the middle of the list and continually divides in the direction of the result until a result is found. This search algorithm requires a sorted list.  </h4>
+  <h4>This search algorithm uses a divide and conquer approach and is a more efficient search that begins in the middle of the list and continually divides in the direction of the result until a result is found. This search algorithm requires a sorted list.  </h4>
   <h1>Process</h1>
-  <h4>1. Start with the middle index.</h4>
-  <h4>2. If the item is not found, move to the index halfway from the current middle index toward the side of the list that is closer to the desired item.</h4>
-  <h4>3. Continuouslly repeat the second step until a result is found, or until the list can no longer be divided and the item is not found.</h4>
-  <h4>4. If the item is found return the index and stop searching.</h4>
-  <h4>5. If the item is not in the list, return -1.</h4>
+  <h4>1. Split the original list in half.</h4>
+  <h4>2. Continuously split the created sublist in half until each item is individualized.</h4>
+  <h4>3. Merge each item together piece by piece by comparing them and placing the smallest items first.</h4>
   <hr>
   <h1>Complexities</h1>
-  <h4>Time Complexity - O(Log(n))</h4>
-  <h4>Space Complexity - Increases as list size increases.</h4>
+  <h4>Time Complexity - O(Log(N))</h4>
   <hr>
   <br><br>
 </div>

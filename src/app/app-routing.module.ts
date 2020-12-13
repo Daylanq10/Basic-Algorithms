@@ -8,6 +8,7 @@ import { SelectionSortComponent} from './selection-sort/selection-sort.component
 import { BubbleSortComponent} from './bubble-sort/bubble-sort.component';
 import { MergeSortComponent} from './merge-sort/merge-sort.component';
 import { QuickSortComponent} from './quick-sort/quick-sort.component';
+import { InsertionSortComponent} from './insertion-sort/insertion-sort.component';
 
 const routes: Routes = [
   {path: 'home-info', component: HomeInfoComponent},
@@ -16,7 +17,8 @@ const routes: Routes = [
   {path: 'selection-sort', component: SelectionSortComponent},
   {path: 'bubble-sort', component: BubbleSortComponent},
   {path: 'merge-sort', component: MergeSortComponent},
-  {path: 'quick-sort', component: QuickSortComponent}
+  {path: 'quick-sort', component: QuickSortComponent},
+  {path: 'insertion-sort', component: InsertionSortComponent}
 ];
 
 @NgModule({
